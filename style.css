@@ -4,14 +4,32 @@ button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
 
+body{
+    font-family: sans-serif;
+}
 
-section button{
-    background-color: #805215;
+header{
+    background-color: #FFDBAA;
+    display: block;
+}
+header button{
+    height: 50px;
+    width: 80px;
+    margin-inline: 1%;
+}
+
+header h1{
+    color: #553100;
+}
+
+
+main button{
     height: 50px;
     width: 200px;
 }
 
 button{
+    background-color: #805215;
     color: aliceblue;
     border: none;
     text-align: center;
@@ -19,5 +37,24 @@ button{
 
 section{
     display: inline-block;
+    text-align: center;
+    padding: 70px 40px;
+    background-color: aliceblue;
+    width: 200px;
+    height: 130px;
+    box-shadow: 4px 4px 2px #805215;
 }
 
+.about{
+    width: 800px;
+    background-color: aliceblue;
+    box-shadow: 4px 4px 2px #805215;
+    text-align: center;
+    width: 90%;
+    padding: 5px;
+}
+
+main{
+    background-color: #D4A76A;
+    display: inline-flexbox;
+}
