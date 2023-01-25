@@ -3,3 +3,21 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+
+
+section button{
+    background-color: #805215;
+    height: 50px;
+    width: 200px;
+}
+
+button{
+    color: aliceblue;
+    border: none;
+    text-align: center;
+}
+
+section{
+    display: inline-block;
+}
+
